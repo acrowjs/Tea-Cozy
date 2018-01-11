@@ -3,9 +3,14 @@
   padding: 0;  
   background-color: black;
   color: seashell;
+  
 }
 
+body{
+  font-size: 22px;	
+}
 
+/*main container*/
 .content_container{
 	display: flex;
 	justify-content: center;
@@ -13,15 +18,29 @@
 	align-items: center;
 }
 
+/*header*/
 .header_container{
-  display: inline-flex;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  padding: 10px;
+  z-index: 1;
   
 }
 
 .header_container li {
-  display: inline;	
+  display: inline;
+  padding: 10px;
+   
+}
+
+.header_container span{
+  flex: auto;	
 }
 
 .header_container img{
-  flex: 1;	
+  height: 50px;
+  padding: 10px;
 }
