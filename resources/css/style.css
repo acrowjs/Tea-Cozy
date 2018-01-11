@@ -1,5 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;  
+  background-color: black;
+  color: seashell;
+}
 
 
+.content_container{
+	display: flex;
+	justify-content: center;
+	flex-flow: column nowrap;
+	align-items: center;
+}
 
+.header_container{
+  display: inline-flex;
+  
+}
 
+.header_container li {
+  display: inline;	
+}
 
+.header_container img{
+  flex: 1;	
+}
