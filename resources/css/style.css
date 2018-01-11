@@ -64,3 +64,23 @@ body{
   flex-flow: column; 
   padding: 10px;
 }
+
+/*Tea Of The Month second panel*/
+.tea_of_the_month{
+  display: inline-flex;
+  height: 700px;
+  width: 1000px; 
+  flex-flow: column wrap;  
+}
+
+.fall_tea{
+  
+  height: 200px;
+  width: 300px;  
+  overflow: hidden;
+}
+
+.fall_tea img{
+  	height: auto;
+	width: 300px;
+}
