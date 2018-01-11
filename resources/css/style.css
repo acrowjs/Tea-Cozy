@@ -67,20 +67,45 @@ body{
 
 /*Tea Of The Month second panel*/
 .tea_of_the_month{
-  display: inline-flex;
-  height: 700px;
-  width: 1000px; 
-  flex-flow: column wrap;  
+ width: 1000px;
+   
+    
+ 
+  margin-bottom: 10px;
+  
 }
 
-.fall_tea{
-  
+.images{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.image{
+  display: block;
   height: 200px;
   width: 300px;  
   overflow: hidden;
+  margin-bottom: 20px;
+  padding: 10px;
+  
 }
 
-.fall_tea img{
+.image img{
   	height: auto;
 	width: 300px;
 }
+
+.image span{
+  position: absolute;
+  overflow: visible;	
+}
+
+
+
+
+
