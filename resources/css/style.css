@@ -3,7 +3,7 @@
   padding: 0;  
   background-color: black;
   color: seashell;
-  
+  opacity: 0.9;
 }
 
 body{
@@ -42,5 +42,25 @@ body{
 
 .header_container img{
   height: 50px;
+  padding: 10px;
+}
+
+/*Our Mission first panel*/
+.our_mission{
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  margin: 10px; 
+}
+
+.our_mission .background_image{
+	background-image: url("../images/background-missions.jpg"); 
+}
+
+.text_content{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: column; 
   padding: 10px;
 }
