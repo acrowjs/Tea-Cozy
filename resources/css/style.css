@@ -129,6 +129,27 @@ body{
   margin: 2px;
 }
 
+/*Locations third panel*/
 
+.locations{
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 20px; 
+  height: 500px;  
+  align-content: space-between;
+}
 
+#locations{
+  margin-left: 4px;	
+}
 
+.column,
+.column2,
+.column3{
+	
+  height: 300px;
+}
+
+.locations li{
+  display: block;
+}
