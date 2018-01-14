@@ -10,12 +10,23 @@ body{
   font-size: 22px;	
 }
 
+.text_content{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: column; 
+  padding: 10px;
+  
+}
+
 /*main container*/
 .content_container{
 	display: flex;
 	justify-content: center;
 	flex-flow: column nowrap;
 	align-items: center;
+	width: 1200px;
+	margin-left: 400px;
 }
 
 /*header*/
@@ -26,7 +37,7 @@ body{
   height: 69px;
   width: 100%;
   padding: 10px;
-  z-index: 1;
+ 
   
 }
 
@@ -50,7 +61,7 @@ body{
   display: flex;
   height: 700px;
   width: 100%;
-  
+  justify-content: center;
   
 }
 
@@ -58,22 +69,11 @@ body{
 	background-image: url("../images/background-missions.jpg"); 
 }
 
-.text_content{
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  flex-flow: column; 
-  padding: 10px;
-}
 
 /*Tea Of The Month second panel*/
 .tea_of_the_month{
- width: 1000px;
-   
-    
- 
+ width: 100%;
   margin-top: 100px;
-  
 }
 
 .images{
@@ -117,17 +117,10 @@ body{
   align-items: center;
   justify-content: center;
   align-content: space-around;
-   
-}
-
-
-
-.locations{
-  display: flex;
-  background-image: url("../images/background-locations.jpg");	
-  justify-content: center;
+  background-image: url("../images/background-locations.jpg"); 
   
-}	
+}
+	
 	
 .column,
 .column2,
@@ -152,4 +145,25 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 100px;
+}
+
+/*footer*/
+
+.footer_container{
+  height:200px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_container .text_content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*copyright*/
+.copyright span{
+  display: inline;
+  text-align: left; 
+  padding: 5px;  
 }
